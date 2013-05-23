@@ -8,7 +8,7 @@ script:
  - cmake ..
  - make
  - make test
- - make install
+ - sudo make install
 
 # watch master and next branches only
 branches:
