@@ -1,0 +1,17 @@
+before_script:
+   - sudo apt-get install build-essential git-core libboost-all-dev libfftw3-dev cmake libprotobuf-dev protobuf-compiler
+
+language: cpp
+script:
+ - mkdir build
+ - cd build
+ - cmake ..
+ - make
+ - make test
+ - make install
+
+# watch master and next branches only
+branches:
+ only:
+   - master
+   - next

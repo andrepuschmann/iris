@@ -1,0 +1,6 @@
+[submodule "iris_core"]
+	path = iris_core
+	url = https://github.com/andrepuschmann/iris_core.git
+[submodule "iris_modules"]
+	path = iris_modules
+	url = https://github.com/andrepuschmann/iris_modules.git
